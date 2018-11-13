@@ -4,12 +4,7 @@
 
 ## Pull the image
 
-    git clone https://raw.githubusercontent.com/bashNinja-dockers/docker-amridm2mqtt-rpi/
-
-## Build Image
-    
-    cd docker-amridm2mqtt-rpi
-    docker build -t docker-amridm2mqtt-rpi .
+    docker pull bashninja/docker-amridm2mqtt-rpi
 
 ## Run the Python amridm2mqtt Application
 
@@ -17,7 +12,7 @@
         -v {path}:/config \
         --privileged \
         -v /dev/bus/usb:/dev/bus/usb \
-        docker-amridm2mqtt-rpi
+        bashninja/docker-amridm2mqtt-rpi
 
 ## Configure the Application
 
