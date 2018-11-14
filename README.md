@@ -1,7 +1,5 @@
 # amridm2mqtt + Docker + LinuxServer.io = <3
 
-# IGNORE THIS, docker hub won't build rpi images
-
 ## Pull the image
 
     git clone https://raw.githubusercontent.com/bashNinja-dockers/docker-amridm2mqtt-rpi/
